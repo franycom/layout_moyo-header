@@ -1,3 +1,62 @@
 body {
   margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: content-box;
 }
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+  font-stretch: normal;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  text-transform:uppercase;
+}
+
+.nav {
+  height: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__logo {
+  height: 40px;
+  width: 40px;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__menu {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
