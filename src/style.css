@@ -64,9 +64,11 @@ html {
 }
 
 .menu__link:hover {
-  color: #055;
+  color: #00acdc;
   text-decoration: none;
 }
+
+
 
 .is-active {
   position: relative;
@@ -85,7 +87,3 @@ html {
   bottom: 0;
 }
 
-[data-qa="hover"] {
-  background-color: #ffacdc;
-  color: #fff;
-}
