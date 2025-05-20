@@ -52,6 +52,7 @@ html {
   display: block;
   line-height: 60px;
   height: 60px;
+  text-transform: uppercase;
 }
 
 .menu__item {
@@ -63,7 +64,7 @@ html {
 }
 
 .menu__link:hover {
-  color: #00acdc;
+  color: #055;
   text-decoration: none;
 }
 
@@ -82,4 +83,9 @@ html {
   display: block;
   position: absolute;
   bottom: 0;
+}
+
+[data-qa="hover"] {
+  background-color: #ffacdc;
+  color: #fff;
 }

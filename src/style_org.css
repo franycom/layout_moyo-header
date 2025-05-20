@@ -11,7 +11,7 @@ html {
   font-weight: 500;
   font-style: normal;
   font-size: 12px;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -47,12 +47,9 @@ html {
   list-style-type: none;
 }
 
-
-
 .menue__item {
   float: left;
 }
-
 
 li a {
   display: block;
@@ -60,4 +57,3 @@ li a {
   text-decoration: none;
   padding: 0 10px;
 }
-
